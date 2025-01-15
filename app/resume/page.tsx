@@ -1,7 +1,11 @@
+import { TableResume } from "./TableResume";
+
+//* data:
+
 export default function ResumePage() {
   return (
     <div>
-      <h1>Soy un Resume</h1>
+      <TableResume />
     </div>
   );
 }
